@@ -28,7 +28,7 @@ select {
   background: rgba(255, 255, 255, 0.2);
   max-width: 600px;
   margin: 60px auto;
-
+  font-family: "Oswald", sans-serif;
   padding: 30px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -64,8 +64,27 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
+.back {
+  display: block;
+}
+#back-link {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #544333;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
 footer {
   text-align: center;
   font-size: 16px;
-  color: #798865;
+  color: #544333;
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+footer a {
+  color: #b49858;
 }
